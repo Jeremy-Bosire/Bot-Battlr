@@ -1,0 +1,27 @@
+.bot-collection, .bot-army {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.bot-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.bot-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
